@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+
+
+</head>
+
+<body class="container-fluid" ng-controller="myCtrl">
+<div class="row"></div>
+<my-nav></my-nav>
+<ng-view></ng-view>
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular-route.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="app.js"></script>
+    <script src="directives/navbar.js"></script>
+    <script src="routing/components/about/about.js"></script>
+    <script src="routing/components/contact/contact.js"></script>
+    <script src="routing/components/home/home.js"></script>
+    <script src="routing/components/projects/projects.js"></script>
+
+</body>
+
+</html>
