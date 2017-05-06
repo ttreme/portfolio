@@ -14,15 +14,11 @@ app.config(["$routeProvider", function ($routeProvider) {
             templateUrl: "routing/components/about/about.html",
             controller: "aboutController"
         })
-		.when("/projects", {
-			templateUrl: "routing/components/projects/projects.html",
-			controller: "projectsController"
-		})
+        .when("/projects", {
+            templateUrl: "routing/components/projects/projects.html",
+            controller: "projectsController"
+        })
         .otherwise({
             redirectTo: "/home"
         });
 }])
-
-
-
-

@@ -1,13 +1,81 @@
 @import 'https://fonts.googleapis.com/css?family=Raleway';
 
-body{
+
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.projectPic{
+    width: 25%;
+    height: 25%;
+    margin: 20px;
+    transition: all .7s ease-in-out;
+
+}
+
+.projectPic:hover {
+
+    width: 45%;
+    height: 45%;
+
+}
+
+
+#triangleBottomRight {
+    z-index: -1;
+    width: 0;
+    height: 0;
+    border-bottom: 300px solid black;
+    border-left: 300px solid transparent;
+    bottom: 0;
+    right: 0;
+    position: fixed;
+}
+
+#triangleBottomLeft {
+    z-index: -1;
+    width: 0;
+    height: 0;
+    border-bottom: 300px solid whitesmoke;
+    border-right: 300px solid transparent;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+}
+
+#triangleTopRight {
+    z-index: -1;
+    width: 0;
+    height: 0;
+    border-top: 300px solid whitesmoke;
+    border-left: 300px solid transparent;
+    top: 0;
+    right: 0;
+    position: fixed;
+}
+
+#triangleTopLeft {
+    z-index: -1;
+    width: 0;
+    height: 0;
+    border-top: 300px solid black;
+    border-right: 300px solid transparent;
+    top: 0;
+    left: 0;
+    position: fixed;
+}
+
+body {
     background-image: url(alpaca-1672647.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
     height: 100vh;
-    
 }
+
 .angleOn {
     background-color: black;
     position: absolute;
@@ -28,6 +96,7 @@ body{
     transition: all 0.8s ease-out;
     transform: matrix3d(3, 0, 0, 0, 0, 3, 0, 0, 0, 0, 1, 0, -600, 100, 0, 1);
     transform-origin: 50px 50px 0px;
+    z-index: 100;
 }
 
 .itemsBox {
@@ -63,10 +132,7 @@ div.container {
 
 .highlightTextOut a {
     color: rgba(255, 255, 255, 0.3)
-
 }
-
-
 
 div.highlightTextOut a:before,
 div.highlightTextIn a:before {
@@ -149,28 +215,29 @@ div.highlightTextIn a:hover:before {
     left: 10px;
 }
 
-.homeTitle{
+.homeTitle {
     text-align: center;
-    color: white;
+    color: darkorange;
     text-shadow: -1px 0 #000000, 0 2px #000000, 1px 0 #000000, 0 -1px #000000;
-
+    margin-top: -15px;
 }
-.aboutMe{
-    text-align: left;
-    color: white;
+
+.aboutMe {
+    text-align: justify;
+    color: darkorange;
     text-shadow: -1px 0 #000000, 0 2px #000000, 1px 0 #000000, 0 -1px #000000;
-    margin-top: 30px;
+    margin-top: 25px;
     font-size: 22px;
+}
 
+.bufferMe {
+    text-align: center;
+    color: darkorange;
+    text-shadow: -1px 0 #000000, 0 2px #000000, 1px 0 #000000, 0 -1px #000000;
+    margin-top: 90px;
+    margin-bottom: 50px;
 }
-.myPicture{
-    border-radius: 50%;
-    border: 3px solid black;
-}
-.bufferMe{
-    margin: 30px;
-}
-.icons{
-margin-top: 20px;
 
+.icons {
+    margin-top: 20px;
 }
