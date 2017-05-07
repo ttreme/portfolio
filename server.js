@@ -12,6 +12,6 @@ mongoose.connect("mongodb://localhost/portfolio", function (err) {
     console.log("connected to DB");
 });
 
-app.listen(8000, function () {
+app.listen(2000, function () {
     console.log("servers working at 8000");
 })
