@@ -2,24 +2,39 @@
 
 
 .container-fluid {
-    padding-right: 15px;
-    padding-left: 0px;
+    padding-right: 10px;
+    padding-left: 10px;
     margin-right: auto;
     margin-left: auto;
 }
+.projectTitle{
+    text-align: center;
+    color: darkorange;
+    font-size: 30px;
+    text-shadow: -1px 0 #000000, 0 2px #000000, 1px 0 #000000, 0 -1px #000000;
+    font-family: monospace;
+    margin-top: 30px;
+}
+
+.projectTitleOne{
+    text-align: center;
+    color: darkorange;
+    font-size: 50px;
+    text-shadow: -1px 0 #000000, 0 2px #000000, 1px 0 #000000, 0 -1px #000000;
+    font-family: monospace;
+}
 
 .projectPic{
-    width: 25%;
-    height: 25%;
-    margin: 20px;
-    transition: all .7s ease-in-out;
 
+    margin-top: 10px;
+    transition: all .3s ease-in-out;
+    border-radius: 150px;
 }
 
 .projectPic:hover {
-
-    width: 45%;
-    height: 45%;
+    border-radius: 0px;
+    padding: 0px;
+    border: royalblue solid 5px ;
 
 }
 
