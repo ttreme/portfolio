@@ -7,18 +7,52 @@
     margin-right: auto;
     margin-left: auto;
 }
+.gitMaster{
+    z-index: 1010;
+    height: 40px;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+}
+
+#myPugCel{
+    position: static;
+}
+
+.linkedIn{
+    z-index: 1010;
+    height: 50px;
+    position: fixed;
+    right: 40px;
+    top:-4px;
+}
+.shiftLeft{
+    margin-left: -10px;
+}
+
+.myMug{
+    border: 3px solid black;
+    padding:0px;
+    border-radius: 100%;
+    margin-bottom: 30px;
+
+
+}
 .projectTitle{
     text-align: center;
-    color: darkorange;
+    color:violet;
     font-size: 30px;
     text-shadow: -1px 0 #000000, 0 2px #000000, 1px 0 #000000, 0 -1px #000000;
     font-family: monospace;
     margin-top: 30px;
+    text-decoration:underline ;
+    text-decoration-color:black ;
+    z-index: 0;
 }
 
 .projectTitleOne{
     text-align: center;
-    color: darkorange;
+    color: violet;
     font-size: 50px;
     text-shadow: -1px 0 #000000, 0 2px #000000, 1px 0 #000000, 0 -1px #000000;
     font-family: monospace;
@@ -28,14 +62,49 @@
 
     margin-top: 10px;
     transition: all .3s ease-in-out;
-    border-radius: 150px;
+    padding: 0;
+    position: relative;
+    border: royalblue solid 5px;
+
+}
+.projectPicTwo{
+
+    margin-top: 10px;
+    transition: all .3s ease-in-out;
+    padding: 0;
+    position: relative;
+    border: indianred solid 5px;
+}
+.projectPicThree{
+
+    margin-top: 10px;
+    transition: all .3s ease-in-out;
+    padding: 0;
+    position: relative;
+    border: green solid 5px;
+
+}
+.projectPicFour{
+
+    margin-top: 10px;
+    transition: all .3s ease-in-out;
+    padding: 0;
+    position: relative;
+    border: yellow solid 5px;
+
+}
+.blackBox{
+    color: white;
+    background-color: black;
+    margin-top: 10px;
+    padding: 20px;
+    font-family: monospace;
+    border-radius: 75px;
 }
 
-.projectPic:hover {
-    border-radius: 0px;
-    padding: 0px;
-    border: royalblue solid 5px ;
-
+hr{
+    margin-top: 0px;
+    margin-bottom: 10px;
 }
 
 
@@ -58,7 +127,7 @@
     border-right: 300px solid transparent;
     bottom: 0;
     left: 0;
-    position: fixed;
+    position:fixed;
 }
 
 #triangleTopRight {
@@ -84,11 +153,15 @@
 }
 
 body {
-    background-image: url(alpaca-1672647.jpg);
-    background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
     height: 100vh;
+    font-weight:300;
+    font-size: 12px;
+    line-height:30px;
+    color:black;
+    background:#0CF;
+
 }
 
 .angleOn {
@@ -119,11 +192,12 @@ body {
     position: relative;
 }
 
+
 a {
     color: inherit;
-    text-decoration: none !important;
+    text-decoration: none;
+    z-index: 1000;
 }
-
 
 /*animations*/
 
@@ -232,22 +306,22 @@ div.highlightTextIn a:hover:before {
 
 .homeTitle {
     text-align: center;
-    color: darkorange;
+    color: violet;
     text-shadow: -1px 0 #000000, 0 2px #000000, 1px 0 #000000, 0 -1px #000000;
     margin-top: -15px;
 }
 
 .aboutMe {
     text-align: justify;
-    color: darkorange;
+    color: violet;
     text-shadow: -1px 0 #000000, 0 2px #000000, 1px 0 #000000, 0 -1px #000000;
     margin-top: 25px;
-    font-size: 22px;
+    font-size: 25px;
 }
 
 .bufferMe {
     text-align: center;
-    color: darkorange;
+    color: violet;
     text-shadow: -1px 0 #000000, 0 2px #000000, 1px 0 #000000, 0 -1px #000000;
     margin-top: 90px;
     margin-bottom: 50px;
@@ -256,3 +330,8 @@ div.highlightTextIn a:hover:before {
 .icons {
     margin-top: 20px;
 }
+
+/*contact form*/
+
+
+
