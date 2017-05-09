@@ -40,22 +40,18 @@
 }
 .projectTitle{
     text-align: center;
-    color:violet;
+    color:black;
     font-size: 30px;
-    text-shadow: -1px 0 #000000, 0 2px #000000, 1px 0 #000000, 0 -1px #000000;
-    font-family: monospace;
+    font-family: Raleway;
     margin-top: 30px;
-    text-decoration:underline ;
-    text-decoration-color:black ;
     z-index: 0;
 }
 
 .projectTitleOne{
     text-align: center;
-    color: violet;
+    color: black;
     font-size: 50px;
-    text-shadow: -1px 0 #000000, 0 2px #000000, 1px 0 #000000, 0 -1px #000000;
-    font-family: monospace;
+    font-family: Raleway;
 }
 
 .projectPic{
@@ -94,11 +90,12 @@
 
 }
 .blackBox{
-    color: white;
-    background-color: black;
+    color: black;
+    font-size: 20px;
+    background-color: white;
     margin-top: 10px;
     padding: 20px;
-    font-family: monospace;
+    font-family: Raleway;
     border-radius: 75px;
 }
 
@@ -112,7 +109,7 @@ hr{
     z-index: -1;
     width: 0;
     height: 0;
-    border-bottom: 300px solid black;
+    border-bottom: 300px solid violet;
     border-left: 300px solid transparent;
     bottom: 0;
     right: 0;
@@ -145,7 +142,7 @@ hr{
     z-index: -1;
     width: 0;
     height: 0;
-    border-top: 300px solid black;
+    border-top: 300px solid violet;
     border-right: 300px solid transparent;
     top: 0;
     left: 0;
@@ -306,23 +303,21 @@ div.highlightTextIn a:hover:before {
 
 .homeTitle {
     text-align: center;
-    color: violet;
-    text-shadow: -1px 0 #000000, 0 2px #000000, 1px 0 #000000, 0 -1px #000000;
+    color: black;
     margin-top: -15px;
 }
 
 .aboutMe {
     text-align: justify;
-    color: violet;
-    text-shadow: -1px 0 #000000, 0 2px #000000, 1px 0 #000000, 0 -1px #000000;
+    color: black;
     margin-top: 25px;
     font-size: 25px;
+    font-family: Raleway;
 }
 
 .bufferMe {
     text-align: center;
-    color: violet;
-    text-shadow: -1px 0 #000000, 0 2px #000000, 1px 0 #000000, 0 -1px #000000;
+    color: black;
     margin-top: 90px;
     margin-bottom: 50px;
 }
